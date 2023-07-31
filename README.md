@@ -66,6 +66,12 @@ Clicking "Save" in the bottom right will save the new version, which means that 
 
 # FoundryVTT Module
 
-Does something, probably
+Reclaim the Wild is a game system for Foundry Virtual Tabletop¹. It is a TTRPG system that allows players to play in a world of wilderness and magic. The Reclaim the Wild TTRPG website is ⁴https://reclaimthewild.net/index.php/about/⁴. The mirror of Reclaim the Wild’s ruleset is located at ⁵https://reclaimthewild.github.io/en/⁵. The Foundry Virtual TableTop game system for the Reclaim the Wild TTRPG can be found at ¹https://foundryvtt.com/packages/reclaim-the-wild¹. It is a JavaScript module that adds ingredients and tools to the Reclaim the Wild system.
+
+(1) Reclaim the Wild | Foundry Virtual Tabletop. https://foundryvtt.com/packages/reclaim-the-wild.
+(2) undefined. https://reclaimthewild.net/index.php/about/.
+(3) undefined. https://reclaimthewild.github.io/en/.
+(4) Reclaim the Wild - Foundry Hub. https://www.foundryvtt-hub.com/package/reclaim-the-wild/.
+(5) Introduction to Module Development | Foundry Virtual Tabletop. https://foundryvtt.com/article/module-development/.
 
 ## Changelog
