@@ -1,51 +1,114 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
-  },
-  "authors": [
-    {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    }
-  ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+	"id": "reclaim-the-wild-core-utils",
+	"title": "Reclaim the Wild Core Utils",
+	"description": "A module containing the exported Reclaim the Wild Core Utils compendium.\n Reclaim the Wild is a game system for Foundry Virtual Tabletop.\n It is a TTRPG system that allows players to play in a world of wilderness and magic.\n The Reclaim the Wild TTRPG website is https://reclaimthewild.net/index.php/about/.\n The mirror of Reclaim the Wild’s ruleset is located at https://reclaimthewild.github.io/en/.\n The Foundry Virtual TableTop game system for the Reclaim the Wild TTRPG can be found at https://foundryvtt.com/packages/reclaim-the-wild.\n It is a JavaScript module that adds ingredients and tools to the Reclaim the Wild system.",
+	"version": "0.0.1",
+	"library": "false",
+	"manifestPlusVersion": "1.2.0",
+	"compatibility": {
+		"minimum": 10,
+		"verified": 10.303,
+		"maximum": 11
+	},
+	"authors": [
+		{
+			"name": "Daverd-GM",
+			"email": "Dehidalgov+TTRPG@gmail.com",
+			"url": "https://github.com/Daverd-GM",
+			"discord": "daverdgm"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "reclaim-the-wild",
+				"type": "system",
+				"compatibility": {}
+			}
+		],
+		"requires": [
+			{
+				"id": "compendium-folders",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {}
+			}
+		],
+		"recommends": [
+			{
+				"id": "torch",
+				"type": "module",
+				"compatibility": {}
+			}
+		]
+	},
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"scripts": [
+		"scripts/lib/lib.js"
+	],
+	"styles": [
+		"styles/module.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"packs": [
+		{
+			"type": "Item",
+			"label": "Default Ingredients for Reclaim the Wild",
+			"module": "reclaim-the-wild-core-utils",
+			"path": "packs/hyrule-default-ingredients-for-reclaim-the-wild.db",
+			"name": "hyrule-default-ingredients-for-reclaim-the-wild",
+			"system": "reclaim-the-wild",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"type": "Item",
+			"label": "Default Tools for Reclaim the WIld",
+			"module": "reclaim-the-wild-core-utils",
+			"path": "packs/hyrule-default-tools-for-reclaim-the-wild.db",
+			"name": "hyrule-default-tools-for-reclaim-the-wild",
+			"system": "reclaim-the-wild",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"type": "Item",
+			"label": "Default Conditions for Reclaim the Wild",
+			"module": "reclaim-the-wild-core-utils",
+			"path": "packs/hyrule-default-conditions-for-reclaim-the-wild.db",
+			"name": "hyrule-default-conditions-for-reclaim-the-wild",
+			"system": "reclaim-the-wild",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"url": "https://github.com/Daverd-GM/Reclaim-the-Wild-Core-Utils",
+	"manifest": "https://github.com/Daverd-GM/Reclaim-the-Wild-Core-Utils/releases/latest/download/module.json",
+	"download": "https://github.com/Daverd-GM/Reclaim-the-Wild-Core-Utils/releases/latest/download/module.zip",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"media": [
+		{
+			"type": "icon",
+			"url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+		}
+	]
 }
