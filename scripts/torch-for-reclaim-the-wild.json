@@ -4,11 +4,11 @@
     "topology": "standard",
     "quantity" : "quantity",
     "aliases": {
-      "Tracer 1": "Dim 1",
-      "Tracer 2": "Dim 2",
-      "Tracer 3": "Dim 3",
-      "Tracer 4": "Dim 4",
-      "Tracer 5": "Dim 5",
+      "Tracer 1": "Dim 1", "Tracer 1 (Copy)": "Tracer 1",
+      "Tracer 2": "Dim 2", "Tracer 2 (Copy)": "Tracer 2",
+      "Tracer 3": "Dim 3", "Tracer 3 (Copy)": "Tracer 3",
+      "Tracer 4": "Dim 4", "Tracer 4 (Copy)": "Tracer 4",
+      "Tracer 5": "Dim 5", "Tracer 5 (Copy)": "Tracer 5",
       "Sol's Gleam 1": "Lantern (1h, R1)",
       "Sol's Gleam 2": "Lantern (1h, R2)",
       "Sol's Gleam 3": "Lantern (1h, R3)",
@@ -51,7 +51,7 @@
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           },
           {
-            "bright": 5, "dim": 0, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "bright": 5, "dim": 0, "angle": 90, "color": "#ff9329", "alpha": 0.5,
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           }
         ]
@@ -67,7 +67,7 @@
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           },
           {
-            "bright": 6, "dim": 0, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "bright": 6, "dim": 0, "angle": 90, "color": "#ff9329", "alpha": 0.5,
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           }
         ]
@@ -83,7 +83,7 @@
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           },
           {
-            "bright": 7, "dim": 0, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "bright": 7, "dim": 0, "angle": 90, "color": "#ff9329", "alpha": 0.5,
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           }
         ]
@@ -99,7 +99,7 @@
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           },
           {
-            "bright": 8, "dim": 0, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "bright": 8, "dim": 0, "angle": 90, "color": "#ff9329", "alpha": 0.5,
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           }
         ]
@@ -115,7 +115,7 @@
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           },
           {
-            "bright": 9, "dim": 0, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "bright": 9, "dim": 0, "angle": 90, "color": "#ff9329", "alpha": 0.5,
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           }
         ]
@@ -131,7 +131,7 @@
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           },
           {
-            "bright": 10,"dim": 0, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "bright": 10,"dim": 0, "angle": 90, "color": "#ff9329", "alpha": 0.5,
             "animation": { "type": "torch", "speed": 5,"intensity": 5,"reverse": false}
           }
         ]
@@ -328,8 +328,8 @@
           }
         ]
       },
-      "Fairy’s Focused Light 3": {
-        "name": "Fairy’s Focused Light 3",
+      "Fairy's Focused Light 3": {
+        "name": "Fairy's Focused Light 3",
         "type": "spell",
         "consumable": true,
         "states": 2,
@@ -340,8 +340,8 @@
           }
         ]
       },
-      "Fairy’s Focused Light 4": {
-        "name": "Fairy’s Focused Light 4",
+      "Fairy's Focused Light 4": {
+        "name": "Fairy's Focused Light 4",
         "type": "spell",
         "consumable": true,
         "states": 2,
@@ -352,8 +352,8 @@
           }
         ]
       },
-      "Fairy’s Focused Light 5": {
-        "name": "Fairy’s Focused Light 5",
+      "Fairy's Focused Light 5": {
+        "name": "Fairy's Focused Light 5",
         "type": "spell",
         "consumable": true,
         "states": 2,
