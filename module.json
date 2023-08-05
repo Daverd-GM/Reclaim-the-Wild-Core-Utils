@@ -99,6 +99,13 @@
 				"ASSISTANT": "OWNER"
 			}
 		}
+	  ],
+  	"packFolders": [
+    {
+      "name": "Corebook",
+      "sorting": "a",
+      "packs": ["hyrule-default-ingredients-for-reclaim-the-wild", "hyrule-default-tools-for-reclaim-the-wild", "hyrule-default-conditions-for-reclaim-the-wild"]
+    }
 	],
 	"url": "https://github.com/Daverd-GM/Reclaim-the-Wild-Core-Utils",
 	"manifest": "https://github.com/Daverd-GM/Reclaim-the-Wild-Core-Utils/releases/latest/download/module.json",
