@@ -4,21 +4,9 @@
     "topology":"standard",
     "quantity":"quantity",
     "aliases":{
-      "brigth 1":"Fair 1",
-      "brigth 2":"Fair 2",
-      "brigth 3":"Fair 3",
-      "brigth 4":"Fair 4",
-      "brigth 5":"Fair 5",
-      "Tracer 1":"Dim 1",
-      "Tracer 2":"Dim 2",
-      "Tracer 3":"Dim 3",
-      "Tracer 4":"Dim 4",
-      "Tracer 5":"Dim 5",
-      "Sol's Gleam 1":"Lantern (1h, R1)",
-      "Sol's Gleam 2":"Lantern (1h, R2)",
-      "Sol's Gleam 3":"Lantern (1h, R3)",
-      "Sol's Gleam 4":"Lantern (1h, R4)",
-      "Sol's Gleam 5":"Lantern (1h, R5)"
+      "brigth 1":"Fair 1","brigth 2":"Fair 2","brigth 3":"Fair 3","brigth 4":"Fair 4","brigth 5":"Fair 5",
+      "Tracer 1":"Dim 1","Tracer 2":"Dim 2","Tracer 3":"Dim 3","Tracer 4":"Dim 4","Tracer 5":"Dim 5",
+      "Sol's Gleam 1":"Lantern (1h, R1)","Sol's Gleam 2":"Lantern (1h, R2)","Sol's Gleam 3":"Lantern (1h, R3)","Sol's Gleam 4":"Lantern (1h, R4)","Sol's Gleam 5":"Lantern (1h, R5)"
     },
     "sources":{
       "Candle":{
@@ -53,11 +41,11 @@
         "light":[
           {
             "bright":2,"dim":0,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           },
           {
             "bright":5,"dim":0,"angle":90,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -69,11 +57,11 @@
         "light":[
           {
             "bright":2,"dim":3,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           },
           {
             "bright":6,"dim":0,"angle":90,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -85,11 +73,11 @@
         "light":[
           {
             "bright":3,"dim":0,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           },
           {
             "bright":7,"dim":0,"angle":90,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -101,11 +89,11 @@
         "light":[
           {
             "bright":3,"dim":4,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           },
           {
             "bright":8,"dim":0,"angle":90,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -117,11 +105,11 @@
         "light":[
           {
             "bright":4,"dim":0,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           },
           {
             "bright":9,"dim":0,"angle":90,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -133,11 +121,11 @@
         "light":[
           {
             "bright":4,"dim":5,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           },
           {
             "bright":10,"dim":0,"angle":90,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -149,7 +137,7 @@
         "light":[
           {
             "bright":4,"dim":0,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -161,7 +149,7 @@
         "light":[
           {
             "bright":4,"dim":5,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -173,7 +161,7 @@
         "light":[
           {
             "bright":5,"dim":0,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -185,7 +173,7 @@
         "light":[
           {
             "bright":5,"dim":6,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -197,7 +185,7 @@
         "light":[
           {
             "bright":6,"dim":0,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"torch","speed":5,"intensity":5,"reverse":false}
+            "animation":{"type":"torch","speed":5,"intensity":5,"reverse":false}
           }
         ]
       },
@@ -209,7 +197,7 @@
         "light":[
           {
             "bright":6,"dim":7,"angle":360,"color":"#ff9329","alpha":0.5,
-            "animation":{ "type":"flame","speed":5,"intensity":5,"reverse":false }
+            "animation":{"type":"flame","speed":5,"intensity":5,"reverse":false }
           }
         ]
       },
