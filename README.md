@@ -1,7 +1,8 @@
-![](https://img.shields.io/badge/Foundry-v10-informational)
+![](https://img.shields.io/badge/Foundry-v12-informational)
 <!--- Downloads @ Latest Badge -->
 <!--- replace <user>/<repo> with your username/repository -->
 <!--- ![Latest Release Download Count](https://img.shields.io/github/downloads/<user>/<repo>/latest/module.zip) -->
+![Latest Release Download Count](https://img.shields.io/github/downloads/Daverd-GM/Reclaim-the-Wild-Core-Utils/latest/module.zip)
 
 <!--- Forge Bazaar Install % Badge -->
 <!--- replace <your-module-name> with the `name` in your manifest -->
@@ -21,3 +22,5 @@ It is a JavaScript module that adds ingredients and tools to the Reclaim the Wil
 
 ## Changelog
 0.0.1 Release for Foundry V10 it includes the start of the project with the respective ingredients tools and some conditions.
+0.0.2 Release for Foundry V11 adds colors.
+0.0.3 Release for Foundry V12 update icons.
