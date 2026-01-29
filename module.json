@@ -2,11 +2,10 @@
   "id": "reclaim-the-wild-core-utils",
   "title": "Reclaim the Wild Core Utils",
   "version": "0.0.2",
-	"manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
-  },
+    "verified": "12"
+	"manifestPlusVersion": "1.2.0",
   "relationships": {
     "systems": [
       {
